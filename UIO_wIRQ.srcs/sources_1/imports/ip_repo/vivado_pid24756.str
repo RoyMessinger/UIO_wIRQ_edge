@@ -1,0 +1,460 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:47:09 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 24756
+License: Customer
+
+Current time: 	Sat May 30 19:08:57 IDT 2020
+Time zone: 	Israel Standard Time (Asia/Jerusalem)
+
+OS: Ubuntu
+OS Version: 4.15.0-42-generic
+OS Architecture: amd64
+Available processors (cores): 12
+
+Display: localhost:10.0
+Screen size: 1680x1050
+Screen resolution (DPI): 100
+Available screens: 1
+Available disk space: 75 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/fpga/Xilinx/Vivado/2019.1/tps/lnx64/jre9.0.4
+Java executable location: 	/fpga/Xilinx/Vivado/2019.1/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	roy-m
+User home directory: /home/roy-m
+User working directory: /fpga/projects/UIO_wIRQ/UIO_wIRQ.srcs/sources_1/imports/ip_repo
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /fpga/Xilinx/Vivado
+HDI_APPROOT: /fpga/Xilinx/Vivado/2019.1
+RDI_DATADIR: /fpga/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: /fpga/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: /home/roy-m/.Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: /home/roy-m/.Xilinx/Vivado/2019.1/
+Vivado layouts directory: /home/roy-m/.Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	/fpga/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	/fpga/projects/UIO_wIRQ/UIO_wIRQ.srcs/sources_1/imports/ip_repo/vivado.log
+Vivado journal file location: 	/fpga/projects/UIO_wIRQ/UIO_wIRQ.srcs/sources_1/imports/ip_repo/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-24756-kub18-fpga
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /fpga/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINXD_LICENSE_FILE: 2100@127.0.0.1
+XILINX_DSP: /fpga/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: /fpga/Xilinx/Vivado/2019.1
+XILINX_SDK: /fpga/Xilinx/SDK/2019.1
+XILINX_VIVADO: /fpga/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: /fpga/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 832 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 828 MB. GUI used memory: 43 MB. Current time: 5/30/20, 7:08:59 PM IDT
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/fpga/projects/UIO_wIRQ/UIO_wIRQ.xpr", 0); // q (O, cl)
+// Opening Vivado Project: /fpga/projects/UIO_wIRQ/UIO_wIRQ.xpr. Version: Vivado v2019.1 
+// by (cl):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// Tcl Message: open_project /fpga/projects/UIO_wIRQ/UIO_wIRQ.xpr 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 100 MB (+102564kb) [00:00:21]
+// [Engine Memory]: 866 MB (+756693kb) [00:00:21]
+// [Engine Memory]: 910 MB (+485kb) [00:00:22]
+// WARNING: HEventQueue.dispatchEvent() is taking  1522 ms.
+// Tcl Message: open_project /fpga/projects/UIO_wIRQ/UIO_wIRQ.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/fpga/projects/ip_repo/myip_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/fpga/projects/UIO_wIRQ/ip_repo/custom_IO_1.0'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/fpga/Xilinx/Vivado/2019.1/data/ip'. 
+// Project name: UIO_wIRQ; location: /fpga/projects/UIO_wIRQ; part: xc7z020clg484-1
+dismissDialog("Open Project"); // by (cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,072 MB. GUI used memory: 56 MB. Current time: 5/30/20, 7:09:14 PM IDT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// [Engine Memory]: 1,003 MB (+49606kb) [00:00:28]
+// [Engine Memory]: 1,059 MB (+6782kb) [00:00:28]
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd)]", 1); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), design_1_i : design_1 (design_1.bd)]", 2, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), design_1_i : design_1 (design_1.bd)]", 2, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// by (cl):  Open Block Design : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1051 ms.
+// TclEventType: LOAD_FEATURE
+// Tcl Message: open_bd_design {/fpga/projects/UIO_wIRQ/UIO_wIRQ.srcs/sources_1/bd/design_1/design_1.bd} 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// [GUI Memory]: 106 MB (+1296kb) [00:00:36]
+// TclEventType: RSB_OPEN_DIAGRAM
+// [GUI Memory]: 115 MB (+3542kb) [00:00:38]
+// TclEventType: RSB_CONNECTION_CHANGE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: RSB_LOCK_CHANGE
+dismissDialog("Open Block Design"); // by (cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,117 MB. GUI used memory: 61 MB. Current time: 5/30/20, 7:11:19 PM IDT
+// [Engine Memory]: 1,118 MB (+5426kb) [00:03:38]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 1,216 MB (+44971kb) [00:04:09]
+// Elapsed time: 211 seconds
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_CHANGED_MODULES, "Refresh Changed Modules"); // h (cS, cl)
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,154 MB. GUI used memory: 61 MB. Current time: 5/30/20, 7:12:59 PM IDT
+// TclEventType: DG_GRAPH_STALE
+// by (cl):  Refresh Changed Modules : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1265 ms.
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_module_reference design_1_custom_IO_v1_0_S00_A_0_0 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Upgrading '/fpga/projects/UIO_wIRQ/UIO_wIRQ.srcs/sources_1/bd/design_1/design_1.bd' 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-3420] Updated design_1_custom_IO_v1_0_S00_A_0_0 to use current project options 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: Wrote  : </fpga/projects/UIO_wIRQ/UIO_wIRQ.srcs/sources_1/bd/design_1/design_1.bd>  Wrote  : </fpga/projects/UIO_wIRQ/UIO_wIRQ.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui>  
+dismissDialog("Refresh Changed Modules"); // by (cl)
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 417ms to process. Increasing delay to 3000 ms.
+// Elapsed time: 10 seconds
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cx' command handler elapsed time: 3 seconds
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Launch Runs"); // f (cl)
+// by (cl):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,234 MB. GUI used memory: 61 MB. Current time: 5/30/20, 7:13:19 PM IDT
+// Tcl Message: Wrote  : </fpga/projects/UIO_wIRQ/UIO_wIRQ.srcs/sources_1/bd/design_1/design_1.bd>  
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJ_DESIGN_MODE_SET
+// [Engine Memory]: 1,326 MB (+50761kb) [00:04:32]
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: VHDL Output written to : /fpga/projects/UIO_wIRQ/UIO_wIRQ.srcs/sources_1/bd/design_1/synth/design_1.vhd VHDL Output written to : /fpga/projects/UIO_wIRQ/UIO_wIRQ.srcs/sources_1/bd/design_1/sim/design_1.vhd VHDL Output written to : /fpga/projects/UIO_wIRQ/UIO_wIRQ.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M . INFO: [BD 41-1029] Generation completed for the IP Integrator block custom_IO_v1_0_S00_A_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar . INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_1 . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: Exporting to file /fpga/projects/UIO_wIRQ/UIO_wIRQ.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file /fpga/projects/UIO_wIRQ/UIO_wIRQ.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl Generated Hardware Definition File /fpga/projects/UIO_wIRQ/UIO_wIRQ.srcs/sources_1/bd/design_1/synth/design_1.hwdef 
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = dd9e4474d06f2eda; cache size = 21.658 MB. 
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat May 30 19:13:24 2020] Launched design_1_custom_IO_v1_0_S00_A_0_0_synth_1, synth_1... Run output will be captured here: design_1_custom_IO_v1_0_S00_A_0_0_synth_1: /fpga/projects/UIO_wIRQ/UIO_wIRQ.runs/design_1_custom_IO_v1_0_S00_A_0_0_synth_1/runme.log synth_1: /fpga/projects/UIO_wIRQ/UIO_wIRQ.runs/synth_1/runme.log [Sat May 30 19:13:24 2020] Launched impl_1... Run output will be captured here: /fpga/projects/UIO_wIRQ/UIO_wIRQ.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 6913.207 ; gain = 165.652 ; free physical = 53985 ; free virtual = 123145 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HEventQueue.dispatchEvent() is taking  3749 ms.
+// [GUI Memory]: 123 MB (+2106kb) [00:05:05]
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ah (cl): Bitstream Generation Completed: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1141 ms.
+// Elapsed time: 127 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cl)
+// Elapsed time: 80 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (cl): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g (Q, X): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+// 'm' command handler elapsed time: 5 seconds
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Export Hardware"); // X (cl)
+// Tcl Message: file copy -force /fpga/projects/UIO_wIRQ/UIO_wIRQ.runs/impl_1/design_1_wrapper.sysdef /fpga/projects/UIO_wIRQ/UIO_wIRQ.sdk/design_1_wrapper.hdf  
+// HMemoryUtils.trashcanNow. Engine heap size: 1,348 MB. GUI used memory: 70 MB. Current time: 5/30/20, 7:43:19 PM IDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,348 MB. GUI used memory: 65 MB. Current time: 5/30/20, 8:13:19 PM IDT
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 4742 seconds
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_CHANGED_MODULES, "Refresh Changed Modules"); // h (cS, cl)
+// [Engine Memory]: 1,468 MB (+80119kb) [01:27:15]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_module_reference design_1_custom_IO_v1_0_S00_A_0_0 
+// Tcl Message: Upgrading '/fpga/projects/UIO_wIRQ/UIO_wIRQ.srcs/sources_1/bd/design_1/design_1.bd' 
+// Tcl Message: INFO: [IP_Flow 19-3420] Updated design_1_custom_IO_v1_0_S00_A_0_0 to use current project options 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// by (cl):  Refresh Changed Modules : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1261 ms.
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : </fpga/projects/UIO_wIRQ/UIO_wIRQ.srcs/sources_1/bd/design_1/design_1.bd>  
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+dismissDialog("Refresh Changed Modules"); // by (cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,458 MB. GUI used memory: 65 MB. Current time: 5/30/20, 8:36:09 PM IDT
+selectButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "run_bitstream"); // B (f, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1080 ms.
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cx' command handler elapsed time: 3 seconds
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Launch Runs"); // f (cl)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 10 
+// TclEventType: RSB_SCRIPT_TASK
+// by (cl):  Generate Bitstream : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1600 ms.
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Wrote  : </fpga/projects/UIO_wIRQ/UIO_wIRQ.srcs/sources_1/bd/design_1/design_1.bd>  VHDL Output written to : /fpga/projects/UIO_wIRQ/UIO_wIRQ.srcs/sources_1/bd/design_1/synth/design_1.vhd VHDL Output written to : /fpga/projects/UIO_wIRQ/UIO_wIRQ.srcs/sources_1/bd/design_1/sim/design_1.vhd VHDL Output written to : /fpga/projects/UIO_wIRQ/UIO_wIRQ.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M . INFO: [BD 41-1029] Generation completed for the IP Integrator block custom_IO_v1_0_S00_A_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar . INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_1 . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: Exporting to file /fpga/projects/UIO_wIRQ/UIO_wIRQ.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file /fpga/projects/UIO_wIRQ/UIO_wIRQ.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl Generated Hardware Definition File /fpga/projects/UIO_wIRQ/UIO_wIRQ.srcs/sources_1/bd/design_1/synth/design_1.hwdef 
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = dd9e4474d06f2eda; cache size = 21.658 MB. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat May 30 20:36:25 2020] Launched design_1_custom_IO_v1_0_S00_A_0_0_synth_1, synth_1... Run output will be captured here: design_1_custom_IO_v1_0_S00_A_0_0_synth_1: /fpga/projects/UIO_wIRQ/UIO_wIRQ.runs/design_1_custom_IO_v1_0_S00_A_0_0_synth_1/runme.log synth_1: /fpga/projects/UIO_wIRQ/UIO_wIRQ.runs/synth_1/runme.log [Sat May 30 20:36:25 2020] Launched impl_1... Run output will be captured here: /fpga/projects/UIO_wIRQ/UIO_wIRQ.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 7074.828 ; gain = 9.891 ; free physical = 53760 ; free virtual = 123065 
+dismissDialog("Generate Bitstream"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HEventQueue.dispatchEvent() is taking  3462 ms.
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ah (cl): Bitstream Generation Completed: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1094 ms.
+// Elapsed time: 132 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Bitstream Generation Completed"); // ah (cl)
+// WARNING: HEventQueue.dispatchEvent() is taking  2062 ms.
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ae (cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ae (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (cl): Export Hardware: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+// WARNING: HEventQueue.dispatchEvent() is taking  1586 ms.
+// 'm' command handler elapsed time: 4 seconds
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Export Hardware"); // X (cl)
+// Tcl Message: file copy -force /fpga/projects/UIO_wIRQ/UIO_wIRQ.runs/impl_1/design_1_wrapper.sysdef /fpga/projects/UIO_wIRQ/UIO_wIRQ.sdk/design_1_wrapper.hdf  
+// [GUI Memory]: 130 MB (+697kb) [01:50:31]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,416 MB. GUI used memory: 67 MB. Current time: 5/30/20, 9:06:14 PM IDT
